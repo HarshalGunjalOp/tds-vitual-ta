@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TDS Virtual TA</title>
+  <style>
+    /* Reset some basic elements */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #fff8f0;
+      color: #333;
+      padding: 1rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      color: #d35400;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto 2rem;
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      border: 1px solid #f0b27a;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #e67e22;
+    }
+    textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #f0b27a;
+      border-radius: 4px;
+      font-size: 1rem;
+      resize: vertical;
+    }
+    input[type="file"] {
+      display: block;
+      margin-top: 0.25rem;
+    }
+    .controls {
+      margin-top: 1rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .controls button {
+      flex: 1;
+      background-color: #e67e22;
+      color: #fff;
+      border: none;
+      padding: 0.75rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    .controls button:hover {
+      background-color: #d35400;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      color: #d35400;
+    }
+    #answerOutput {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 1rem;
+      border: 1px solid #f0b27a;
+      border-radius: 4px;
+      white-space: pre-wrap;
+      font-family: Consolas, monospace;
+      font-size: 0.95rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    @media (max-width: 640px) {
+      body { padding: 0.5rem; }
+      form, #answerOutput { padding: 1rem; }
+      .controls button { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <h1>TDS Virtual TA</h1>
+  <form id="queryForm">
+    <label for="question">Question:</label>
+    <textarea id="question" rows="4" required></textarea>
+
+    <label for="imageInput">Optional Image:</label>
+    <input type="file" id="imageInput" accept="image/*">
+
+    <div class="controls">
+      <button type="button" id="voiceBtn">🎤 Speak</button>
+      <button type="submit">Ask</button>
+      <button type="button" id="refreshBtn">🔄 Refresh</button>
+    </div>
+  </form>
+
+  <h2>Answer (JSON)</h2>
+  <pre id="answerOutput">{}</pre>
+
+  <script>
+    // Voice recognition setup
+    const voiceBtn = document.getElementById('voiceBtn');
+    const questionEl = document.getElementById('question');
+    const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+    let recognizer;
+    if (SpeechRec) {
+      recognizer = new SpeechRec();
+      recognizer.lang = 'en-US';
+      recognizer.interimResults = false;
+      recognizer.onstart = () => { voiceBtn.textContent = '🔴 Listening...'; };
+      recognizer.onresult = e => {
+        questionEl.value = e.results[0][0].transcript;
+      };
+      recognizer.onend = () => { voiceBtn.textContent = '🎤 Speak'; };
+      voiceBtn.addEventListener('click', () => recognizer.start());
+    } else {
+      voiceBtn.disabled = true;
+      voiceBtn.textContent = 'Voice unsupported';
+    }
+
+    // Refresh button
+    document.getElementById('refreshBtn').addEventListener('click', () => {
+      window.location.reload();
+    });
+
+    // Form submission
+    document.getElementById('queryForm').addEventListener('submit', async e => {
+      e.preventDefault();
+      const question = questionEl.value.trim();
+      const file = document.getElementById('imageInput').files[0];
+      let base64Image = null;
+      if (file) {
+        base64Image = await new Promise(resolve => {
+          const reader = new FileReader();
+          reader.onload = () => resolve(reader.result.split(',')[1]);
+          reader.readAsDataURL(file);
+        });
+      }
+      await sendQuery({ question, image: base64Image });
+    });
+
+    // Send query to backend and display raw JSON
+    async function sendQuery(payload) {
+      const outEl = document.getElementById('answerOutput');
+      outEl.textContent = 'Loading...';
+      try {
+        const res = await fetch('/query', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        outEl.textContent = JSON.stringify(data, null, 2);
+        speak(data.answer);
+      } catch (err) {
+        outEl.textContent = JSON.stringify({ error: err.message }, null, 2);
+      }
+    }
+
+    // Text-to-speech for the answer
+    function speak(text) {
+      if (!window.speechSynthesis || !text) return;
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'en-US';
+      window.speechSynthesis.speak(utter);
+    }
+  </script>
+</body>
+</html>
