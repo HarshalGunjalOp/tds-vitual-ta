@@ -15,10 +15,10 @@
         "reply_count": 0,
         "reply_to_post_number": null,
         "quote_count": 0,
-        "incoming_link_count": 0,
-        "reads": 83,
-        "readers_count": 82,
-        "score": 15.4,
+        "incoming_link_count": 1,
+        "reads": 103,
+        "readers_count": 102,
+        "score": 17.2,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -36,7 +36,7 @@
         "can_recover": false,
         "can_see_hidden_post": false,
         "can_wiki": false,
-        "read": false,
+        "read": true,
         "user_title": "",
         "bookmarked": false,
         "actions_summary": [
@@ -107,9 +107,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 75,
-        "readers_count": 74,
-        "score": 33.8,
+        "reads": 95,
+        "readers_count": 94,
+        "score": 35.6,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -136,7 +136,7 @@
             "clicks": 0
           }
         ],
-        "read": false,
+        "read": true,
         "user_title": "Course TA",
         "title_is_group": false,
         "bookmarked": false,
@@ -216,9 +216,9 @@
         "reply_to_post_number": 4,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 54,
-        "readers_count": 53,
-        "score": 15.6,
+        "reads": 67,
+        "readers_count": 66,
+        "score": 16.2,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -236,7 +236,7 @@
         "can_recover": false,
         "can_see_hidden_post": false,
         "can_wiki": false,
-        "read": false,
+        "read": true,
         "user_title": null,
         "reply_to_user": {
           "id": 13078,
@@ -312,9 +312,9 @@
         "reply_to_post_number": 5,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 49,
-        "readers_count": 48,
-        "score": 39.6,
+        "reads": 60,
+        "readers_count": 59,
+        "score": 40.2,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -418,9 +418,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 36,
-        "readers_count": 35,
-        "score": 7.0,
+        "reads": 42,
+        "readers_count": 41,
+        "score": 7.6,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -508,9 +508,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 39,
-        "readers_count": 38,
-        "score": 12.6,
+        "reads": 45,
+        "readers_count": 44,
+        "score": 13.2,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -601,9 +601,9 @@
         "reply_to_post_number": 10,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 32,
-        "readers_count": 31,
-        "score": 6.2,
+        "reads": 41,
+        "readers_count": 40,
+        "score": 6.8,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -699,9 +699,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 28,
-        "readers_count": 27,
-        "score": 5.4,
+        "reads": 35,
+        "readers_count": 34,
+        "score": 5.8,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -789,9 +789,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 26,
-        "readers_count": 25,
-        "score": 5.0,
+        "reads": 33,
+        "readers_count": 32,
+        "score": 5.4,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -880,10 +880,10 @@
         "reply_count": 0,
         "reply_to_post_number": null,
         "quote_count": 0,
-        "incoming_link_count": 0,
-        "reads": 25,
-        "readers_count": 24,
-        "score": 34.8,
+        "incoming_link_count": 1,
+        "reads": 31,
+        "readers_count": 30,
+        "score": 35.2,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -978,9 +978,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 54,
-        "readers_count": 53,
-        "score": 10.6,
+        "reads": 59,
+        "readers_count": 58,
+        "score": 11.0,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -1068,9 +1068,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 50,
-        "readers_count": 49,
-        "score": 9.8,
+        "reads": 54,
+        "readers_count": 53,
+        "score": 10.2,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -1160,9 +1160,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 43,
-        "readers_count": 42,
-        "score": 8.4,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 8.6,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -1250,9 +1250,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 37,
-        "readers_count": 36,
-        "score": 7.2,
+        "reads": 40,
+        "readers_count": 39,
+        "score": 7.4,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -1340,9 +1340,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 29,
-        "readers_count": 28,
-        "score": 10.4,
+        "reads": 33,
+        "readers_count": 32,
+        "score": 10.8,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -1430,9 +1430,9 @@
         "reply_to_post_number": 19,
         "quote_count": 0,
         "incoming_link_count": 1,
-        "reads": 31,
-        "readers_count": 30,
-        "score": 15.8,
+        "reads": 36,
+        "readers_count": 35,
+        "score": 16.2,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -1529,9 +1529,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 1,
-        "reads": 20,
-        "readers_count": 19,
-        "score": 13.6,
+        "reads": 25,
+        "readers_count": 24,
+        "score": 14.0,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -1628,9 +1628,9 @@
         "reply_to_post_number": 21,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 24,
-        "readers_count": 23,
-        "score": 19.0,
+        "reads": 29,
+        "readers_count": 28,
+        "score": 19.8,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -1648,7 +1648,7 @@
         "can_recover": false,
         "can_see_hidden_post": false,
         "can_wiki": false,
-        "read": false,
+        "read": true,
         "user_title": "Regular",
         "title_is_group": false,
         "reply_to_user": {
@@ -1733,9 +1733,9 @@
         "reply_to_post_number": 20,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 24,
-        "readers_count": 23,
-        "score": 4.2,
+        "reads": 29,
+        "readers_count": 28,
+        "score": 4.8,
         "yours": false,
         "topic_id": 166189,
         "topic_slug": "tds-assignment-is-not-submitting",
@@ -1753,7 +1753,7 @@
         "can_recover": false,
         "can_see_hidden_post": false,
         "can_wiki": false,
-        "read": false,
+        "read": true,
         "user_title": null,
         "reply_to_user": {
           "id": 16094,
@@ -1813,201 +1813,6 @@
         "can_unaccept_answer": false,
         "accepted_answer": false,
         "topic_accepted_answer": true
-      },
-      {
-        "id": 633606,
-        "name": "SATISH KUMAR",
-        "username": "21f3000697",
-        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3000697/{size}/8382_2.png",
-        "created_at": "2025-05-31T09:10:55.326Z",
-        "cooked": "<p>I recently got mail and checked my marks for GA2 and noticed that the final score is showing as <strong>4.25</strong>, but while attempting the assignment earlier, I had scored <strong>7.25</strong> shown after submission.</p>\n<p>Could you please help me understand how the marks were reduced? I want to ensure there was no error or misunderstanding in the evaluation.</p>",
-        "post_number": 24,
-        "post_type": 1,
-        "posts_count": 21,
-        "updated_at": "2025-05-31T09:10:55.326Z",
-        "reply_count": 1,
-        "reply_to_post_number": null,
-        "quote_count": 0,
-        "incoming_link_count": 0,
-        "reads": 15,
-        "readers_count": 14,
-        "score": 7.0,
-        "yours": false,
-        "topic_id": 166189,
-        "topic_slug": "tds-assignment-is-not-submitting",
-        "display_username": "SATISH KUMAR",
-        "primary_group_name": "ds-students",
-        "flair_name": "ds-students",
-        "flair_url": null,
-        "flair_bg_color": "",
-        "flair_color": "",
-        "flair_group_id": 294,
-        "badges_granted": [],
-        "version": 1,
-        "can_edit": false,
-        "can_delete": false,
-        "can_recover": false,
-        "can_see_hidden_post": false,
-        "can_wiki": false,
-        "read": false,
-        "user_title": null,
-        "bookmarked": false,
-        "actions_summary": [
-          {
-            "id": 2,
-            "can_act": true
-          },
-          {
-            "id": 6,
-            "can_act": true
-          },
-          {
-            "id": 3,
-            "can_act": true
-          },
-          {
-            "id": 4,
-            "can_act": true
-          },
-          {
-            "id": 8,
-            "can_act": true
-          },
-          {
-            "id": 10,
-            "can_act": true
-          },
-          {
-            "id": 7,
-            "can_act": true
-          }
-        ],
-        "moderator": false,
-        "admin": false,
-        "staff": false,
-        "user_id": 7189,
-        "hidden": false,
-        "trust_level": 1,
-        "deleted_at": null,
-        "user_deleted": false,
-        "edit_reason": null,
-        "can_view_edit_history": true,
-        "wiki": false,
-        "post_url": "/t/tds-assignment-is-not-submitting/166189/24",
-        "user_cakedate": "2021-09-12",
-        "reactions": [],
-        "current_user_reaction": null,
-        "reaction_users_count": 0,
-        "current_user_used_main_reaction": false,
-        "can_accept_answer": false,
-        "can_unaccept_answer": false,
-        "accepted_answer": false,
-        "topic_accepted_answer": true
-      },
-      {
-        "id": 633608,
-        "name": "Carlton D'Silva",
-        "username": "carlton",
-        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
-        "created_at": "2025-05-31T09:14:12.326Z",
-        "cooked": "<p>Hi Satish,</p>\n<p>Your last submitted score is the only valid score. You have to check before submitting that the score is correct. There is a reload button to load previous answers. But some answers require a live service. If the live service is not running at the time of the check (when you hit the submit button), you will not be scored for those questions. Please make sure that you have any live services running when the submit button is used and check that the last saved score is correct.</p>\n<p>Kind regards</p>",
-        "post_number": 25,
-        "post_type": 1,
-        "posts_count": 21,
-        "updated_at": "2025-05-31T09:14:12.326Z",
-        "reply_count": 0,
-        "reply_to_post_number": 24,
-        "quote_count": 0,
-        "incoming_link_count": 0,
-        "reads": 15,
-        "readers_count": 14,
-        "score": 1.8,
-        "yours": false,
-        "topic_id": 166189,
-        "topic_slug": "tds-assignment-is-not-submitting",
-        "display_username": "Carlton D'Silva",
-        "primary_group_name": "ds-students",
-        "flair_name": "ds-students",
-        "flair_url": null,
-        "flair_bg_color": "",
-        "flair_color": "",
-        "flair_group_id": 294,
-        "badges_granted": [],
-        "version": 1,
-        "can_edit": false,
-        "can_delete": false,
-        "can_recover": false,
-        "can_see_hidden_post": false,
-        "can_wiki": false,
-        "read": false,
-        "user_title": "Regular",
-        "title_is_group": false,
-        "reply_to_user": {
-          "id": 7189,
-          "username": "21f3000697",
-          "name": "SATISH KUMAR",
-          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3000697/{size}/8382_2.png"
-        },
-        "bookmarked": false,
-        "actions_summary": [
-          {
-            "id": 2,
-            "count": 1,
-            "can_act": true
-          },
-          {
-            "id": 6,
-            "can_act": true
-          },
-          {
-            "id": 3,
-            "can_act": true
-          },
-          {
-            "id": 4,
-            "can_act": true
-          },
-          {
-            "id": 8,
-            "can_act": true
-          },
-          {
-            "id": 10,
-            "can_act": true
-          },
-          {
-            "id": 7,
-            "can_act": true
-          }
-        ],
-        "moderator": false,
-        "admin": false,
-        "staff": false,
-        "group_moderator": true,
-        "user_id": 16094,
-        "hidden": false,
-        "trust_level": 3,
-        "deleted_at": null,
-        "user_deleted": false,
-        "edit_reason": null,
-        "can_view_edit_history": true,
-        "wiki": false,
-        "post_url": "/t/tds-assignment-is-not-submitting/166189/25",
-        "user_cakedate": "2023-01-25",
-        "reactions": [
-          {
-            "id": "heart",
-            "type": "emoji",
-            "count": 1
-          }
-        ],
-        "current_user_reaction": null,
-        "reaction_users_count": 1,
-        "current_user_used_main_reaction": false,
-        "can_accept_answer": false,
-        "can_unaccept_answer": false,
-        "accepted_answer": false,
-        "topic_accepted_answer": true
       }
     ],
     "stream": [
@@ -2029,59 +1834,65 @@
       591014,
       591798,
       591804,
-      592129,
-      633606,
-      633608
+      592129
     ]
   },
   "timeline_lookup": [
     [
       1,
-      126
+      131
     ],
     [
       3,
-      124
+      129
     ],
     [
       4,
-      123
+      128
     ],
     [
       5,
-      126
+      131
     ],
     [
       6,
-      122
+      127
+    ],
+    [
+      8,
+      128
+    ],
+    [
+      9,
+      127
     ],
     [
       10,
-      126
+      131
     ],
     [
-      11,
-      125
+      12,
+      130
     ],
     [
       14,
-      124
+      129
     ],
     [
-      15,
-      123
+      16,
+      128
     ],
     [
       17,
-      122
+      127
     ],
     [
       19,
-      121
+      126
     ],
     [
       20,
-      9
+      14
     ]
   ],
   "tags": [
@@ -2094,7 +1905,7 @@
   "fancy_title": "Tds: assignment is not submitting",
   "posts_count": 21,
   "created_at": "2025-02-03T06:54:27.692Z",
-  "views": 122,
+  "views": 149,
   "reply_count": 5,
   "like_count": 7,
   "last_posted_at": "2025-05-31T09:14:12.326Z",
@@ -2117,10 +1928,13 @@
   "draft": null,
   "draft_key": "topic_166189",
   "draft_sequence": 0,
+  "posted": false,
   "unpinned": null,
   "pinned": false,
   "current_post_number": 1,
   "highest_post_number": 25,
+  "last_read_post_number": 23,
+  "last_read_post_id": 592129,
   "deleted_by": null,
   "actions_summary": [
     {
@@ -2151,7 +1965,7 @@
   "chunk_size": 20,
   "bookmarked": false,
   "topic_timer": null,
-  "message_bus_last_id": 3,
+  "message_bus_last_id": 4,
   "participant_count": 15,
   "show_read_indicator": false,
   "thumbnails": null,
@@ -2185,6 +1999,7 @@
   "details": {
     "can_edit": false,
     "notification_level": 1,
+    "notifications_reason_id": null,
     "can_create_post": true,
     "can_reply_as_new_topic": true,
     "can_flag_topic": true,

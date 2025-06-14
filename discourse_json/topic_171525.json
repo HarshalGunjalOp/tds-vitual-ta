@@ -16,9 +16,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 4,
-        "reads": 43,
-        "readers_count": 42,
-        "score": 58.0,
+        "reads": 56,
+        "readers_count": 55,
+        "score": 59.2,
         "yours": false,
         "topic_id": 171525,
         "topic_slug": "clarification-on-api-endpoint-correction-in-submission",
@@ -36,7 +36,7 @@
         "can_recover": false,
         "can_see_hidden_post": false,
         "can_wiki": false,
-        "read": false,
+        "read": true,
         "user_title": "",
         "bookmarked": false,
         "actions_summary": [
@@ -103,7 +103,7 @@
         "id": 614557,
         "name": "Pradeep Mondal",
         "username": "21f2000709",
-        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f2000709/{size}/92157_2.png",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f2000709/{size}/134907_2.png",
         "created_at": "2025-04-02T11:52:04.861Z",
         "cooked": "<p>It is not like that, it can be any endpoint, but whatever you submit should work. Like many frameworks treat /api/ and /api differently.</p>\n<p>The project 2 docs assumes that the endpoint is /api/ and provides the code accordingly.</p>",
         "post_number": 2,
@@ -114,9 +114,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 0,
-        "reads": 42,
-        "readers_count": 41,
-        "score": 27.8,
+        "reads": 55,
+        "readers_count": 54,
+        "score": 29.0,
         "yours": false,
         "topic_id": 171525,
         "topic_slug": "clarification-on-api-endpoint-correction-in-submission",
@@ -134,7 +134,7 @@
         "can_recover": false,
         "can_see_hidden_post": false,
         "can_wiki": false,
-        "read": false,
+        "read": true,
         "user_title": null,
         "bookmarked": false,
         "actions_summary": [
@@ -211,9 +211,9 @@
         "reply_to_post_number": 2,
         "quote_count": 0,
         "incoming_link_count": 2,
-        "reads": 38,
-        "readers_count": 37,
-        "score": 47.2,
+        "reads": 46,
+        "readers_count": 45,
+        "score": 48.2,
         "yours": false,
         "topic_id": 171525,
         "topic_slug": "clarification-on-api-endpoint-correction-in-submission",
@@ -231,13 +231,13 @@
         "can_recover": false,
         "can_see_hidden_post": false,
         "can_wiki": false,
-        "read": false,
+        "read": true,
         "user_title": "",
         "reply_to_user": {
           "id": 7034,
           "username": "21f2000709",
           "name": "Pradeep Mondal",
-          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f2000709/{size}/92157_2.png"
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f2000709/{size}/134907_2.png"
         },
         "bookmarked": false,
         "actions_summary": [
@@ -314,9 +314,9 @@
         "reply_to_post_number": null,
         "quote_count": 0,
         "incoming_link_count": 1,
-        "reads": 31,
-        "readers_count": 30,
-        "score": 40.8,
+        "reads": 38,
+        "readers_count": 37,
+        "score": 41.6,
         "yours": false,
         "topic_id": 171525,
         "topic_slug": "clarification-on-api-endpoint-correction-in-submission",
@@ -334,7 +334,7 @@
         "can_recover": false,
         "can_see_hidden_post": false,
         "can_wiki": false,
-        "read": false,
+        "read": true,
         "user_title": "",
         "bookmarked": false,
         "actions_summary": [
@@ -412,39 +412,40 @@
   "timeline_lookup": [
     [
       1,
-      69
+      74
     ],
     [
       2,
-      68
+      73
     ],
     [
       4,
-      67
+      72
     ]
   ],
   "suggested_topics": [
     {
-      "id": 173525,
-      "title": "GA2 - Deployment Tools - Discussion Thread [TDS May 2025]",
-      "fancy_title": "GA2 - Deployment Tools - Discussion Thread [TDS May 2025]",
-      "slug": "ga2-deployment-tools-discussion-thread-tds-may-2025",
-      "posts_count": 128,
-      "reply_count": 60,
-      "highest_post_number": 135,
+      "id": 176077,
+      "title": "Project1 - Virtual TA - Discussion Thread [TDS May 2025]",
+      "fancy_title": "Project1 - Virtual TA - Discussion Thread [TDS May 2025]",
+      "slug": "project1-virtual-ta-discussion-thread-tds-may-2025",
+      "posts_count": 384,
+      "reply_count": 250,
+      "highest_post_number": 394,
       "image_url": null,
-      "created_at": "2025-05-01T11:41:51.750Z",
-      "last_posted_at": "2025-06-02T20:33:50.578Z",
+      "created_at": "2025-05-22T21:36:32.840Z",
+      "last_posted_at": "2025-06-14T10:57:16.238Z",
       "bumped": true,
-      "bumped_at": "2025-06-02T20:33:50.578Z",
+      "bumped_at": "2025-06-14T10:57:16.238Z",
       "archetype": "regular",
       "unseen": false,
-      "last_read_post_number": 29,
+      "last_read_post_number": 368,
       "unread": 0,
-      "new_posts": 106,
-      "unread_posts": 106,
-      "pinned": false,
+      "new_posts": 26,
+      "unread_posts": 26,
+      "pinned": true,
       "unpinned": null,
+      "excerpt": "Please post any questions related to Project 1 \nPlease use markdown code formatting (fenced code blocks beginning with ```) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test. \nDeadlin&hellip;",
       "visible": true,
       "closed": false,
       "archived": false,
@@ -453,11 +454,11 @@
       "liked": false,
       "tags": [
         "term2-2025",
-        "graded-assignment"
+        "tds-project-1"
       ],
       "tags_descriptions": {},
-      "like_count": 36,
-      "views": 1060,
+      "like_count": 125,
+      "views": 2514,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -465,51 +466,6 @@
         {
           "extras": null,
           "description": "Original Poster",
-          "user": {
-            "id": 9419,
-            "username": "s.anand",
-            "name": "Anand S",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/s.anand/{size}/15264_2.png",
-            "primary_group_name": "faculty",
-            "flair_name": "faculty",
-            "flair_url": "chalkboard-user",
-            "flair_bg_color": "f2c26e",
-            "flair_color": "000",
-            "flair_group_id": 54,
-            "trust_level": 4
-          }
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user": {
-            "id": 12314,
-            "username": "bhuvan",
-            "name": "Bhuvan Krishna",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/bhuvan/{size}/121831_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 1
-          }
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user": {
-            "id": 20160,
-            "username": "SIDDHARTH_M",
-            "name": "SIDDHARTH M",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/siddharth_m/{size}/66955_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 1
-          }
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
           "user": {
             "id": 15651,
             "username": "Jivraj",
@@ -522,13 +478,55 @@
           }
         },
         {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16094,
+            "username": "carlton",
+            "name": "Carlton D'Silva",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 31631,
+            "username": "Karvy",
+            "name": "Karvy Singh",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/karvy/{size}/67600_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17206,
+            "username": "23f1002231",
+            "name": "YashSinha",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1002231/{size}/78871_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
           "extras": "latest",
           "description": "Most Recent Poster",
           "user": {
-            "id": 16594,
-            "username": "22f3002798",
-            "name": "Varma Mudunuri",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3002798/{size}/68573_2.png",
+            "id": 22837,
+            "username": "Hermione_V",
+            "name": "Sneha Sarkar ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/hermione_v/{size}/109704_2.png",
             "primary_group_name": "ds-students",
             "flair_name": "ds-students",
             "flair_group_id": 294,
@@ -538,18 +536,131 @@
       ]
     },
     {
-      "id": 178166,
-      "title": "How to find API key for discourse page",
-      "fancy_title": "How to find API key for discourse page",
-      "slug": "how-to-find-api-key-for-discourse-page",
+      "id": 179145,
+      "title": "Project 1 submission deadline",
+      "fancy_title": "Project 1 submission deadline",
+      "slug": "project-1-submission-deadline",
       "posts_count": 2,
       "reply_count": 0,
       "highest_post_number": 2,
       "image_url": null,
-      "created_at": "2025-06-07T19:52:54.601Z",
-      "last_posted_at": "2025-06-08T04:11:51.525Z",
+      "created_at": "2025-06-14T05:00:09.255Z",
+      "last_posted_at": "2025-06-14T09:35:09.881Z",
       "bumped": true,
-      "bumped_at": "2025-06-08T04:11:51.525Z",
+      "bumped_at": "2025-06-14T09:35:09.881Z",
+      "archetype": "regular",
+      "unseen": true,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "miscellaneous",
+        "term2-2025"
+      ],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 59,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 4223,
+            "username": "lokesh21",
+            "name": "lokesh jadhav",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/lokesh21/{size}/17843_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16090,
+            "username": "22f3002149",
+            "name": "Jolish C",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3002149/{size}/126915_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 179170,
+      "title": "Npx -y promptfoo eval --config project-tds-virtual-ta-promptfoo.yaml error",
+      "fancy_title": "Npx -y promptfoo eval &ndash;config project-tds-virtual-ta-promptfoo.yaml error",
+      "slug": "npx-y-promptfoo-eval-config-project-tds-virtual-ta-promptfoo-yaml-error",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2025-06-14T08:49:39.590Z",
+      "last_posted_at": "2025-06-14T09:06:42.992Z",
+      "bumped": true,
+      "bumped_at": "2025-06-14T09:06:42.992Z",
+      "archetype": "regular",
+      "unseen": true,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "clarification",
+        "diploma-level",
+        "term2-2025"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 13,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 23837,
+            "username": "23f1000129",
+            "name": "Suyash Raj",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1000129/{size}/122013_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 179034,
+      "title": "A humble request to the TDS Course Team",
+      "fancy_title": "A humble request to the TDS Course Team",
+      "slug": "a-humble-request-to-the-tds-course-team",
+      "posts_count": 6,
+      "reply_count": 0,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2025-06-13T00:34:35.191Z",
+      "last_posted_at": "2025-06-14T08:37:15.376Z",
+      "bumped": true,
+      "bumped_at": "2025-06-14T08:37:59.978Z",
       "archetype": "regular",
       "unseen": true,
       "pinned": false,
@@ -564,8 +675,8 @@
         "tds-project-1"
       ],
       "tags_descriptions": {},
-      "like_count": 0,
-      "views": 39,
+      "like_count": 21,
+      "views": 139,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -574,10 +685,10 @@
           "extras": null,
           "description": "Original Poster",
           "user": {
-            "id": 16079,
-            "username": "22f3000658",
-            "name": "Hardik Mehta ",
-            "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/fbc32d/{size}.png",
+            "id": 19426,
+            "username": "23f1000917",
+            "name": "Person",
+            "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/58956e/{size}.png",
             "primary_group_name": "ds-students",
             "flair_name": "ds-students",
             "flair_group_id": 294,
@@ -585,13 +696,104 @@
           }
         },
         {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 13458,
+            "username": "Rajesh3034",
+            "name": "Rajesh Prasad Patel",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/rajesh3034/{size}/13959_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17301,
+            "username": "23f2000566",
+            "name": "Shreya Aggarwal ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2000566/{size}/66771_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 22390,
+            "username": "23f2004624",
+            "name": "Mukund Manoj Bhootra",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2004624/{size}/68083_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 0
+          }
+        },
+        {
           "extras": "latest",
           "description": "Most Recent Poster",
           "user": {
-            "id": 31631,
-            "username": "Karvy",
-            "name": "Karvy Singh",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/karvy/{size}/67600_2.png",
+            "id": 26948,
+            "username": "harbinger",
+            "name": "Harbinger",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/harbinger/{size}/119871_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 179166,
+      "title": "Github account made using the IITM email id keeps getting blocked",
+      "fancy_title": "Github account made using the IITM email id keeps getting blocked",
+      "slug": "github-account-made-using-the-iitm-email-id-keeps-getting-blocked",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-06-14T08:17:25.409Z",
+      "last_posted_at": "2025-06-14T08:17:25.610Z",
+      "bumped": true,
+      "bumped_at": "2025-06-14T08:25:41.205Z",
+      "archetype": "regular",
+      "unseen": true,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "diploma-level",
+        "term2-2025"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 12,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 31948,
+            "username": "Krishnandu",
+            "name": "Krishnandu Manna ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/krishnandu/{size}/67329_2.png",
             "primary_group_name": "ds-students",
             "flair_name": "ds-students",
             "flair_group_id": 294,
@@ -611,7 +813,7 @@
   "fancy_title": "Clarification on API Endpoint Correction in Submission",
   "posts_count": 4,
   "created_at": "2025-04-01T15:09:37.885Z",
-  "views": 80,
+  "views": 96,
   "reply_count": 1,
   "like_count": 7,
   "last_posted_at": "2025-04-03T14:38:39.579Z",
@@ -639,8 +841,8 @@
   "pinned": false,
   "current_post_number": 1,
   "highest_post_number": 4,
-  "last_read_post_number": null,
-  "last_read_post_id": null,
+  "last_read_post_number": 4,
+  "last_read_post_id": 615017,
   "deleted_by": null,
   "actions_summary": [
     {
@@ -865,7 +1067,7 @@
       ],
       "tags_descriptions": {},
       "like_count": 4,
-      "views": 269,
+      "views": 272,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -1034,7 +1236,7 @@
       ],
       "tags_descriptions": {},
       "like_count": 0,
-      "views": 62,
+      "views": 72,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": true,
@@ -1112,7 +1314,7 @@
         "id": 7034,
         "username": "21f2000709",
         "name": "Pradeep Mondal",
-        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f2000709/{size}/92157_2.png",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f2000709/{size}/134907_2.png",
         "post_count": 1,
         "primary_group_name": "ds-students",
         "flair_name": "ds-students",

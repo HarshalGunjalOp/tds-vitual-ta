@@ -17,6 +17,7 @@ dependencies = [
     "python-dotenv>=1.1.0",
     "python-multipart>=0.0.20",
     "requests>=2.32.4",
+    "selenium>=4.33.0",
     "setuptools>=80.9.0",
     "tqdm>=4.67.1",
     "uvicorn>=0.34.3",

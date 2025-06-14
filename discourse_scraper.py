@@ -1,6 +1,7 @@
 import requests
 import os
 import json
+import time
 from datetime import datetime, timezone
 from urllib.parse import urljoin
 
@@ -15,10 +16,11 @@ POST_START_DATE = "2025-01-01"  # Inclusive - posts must be after this date
 POST_END_DATE = "2025-04-15"    # Inclusive - posts must be before this date
 
 # Extended date range for fetching TOPICS (to catch older topics with recent activity)
-TOPIC_FETCH_START_DATE = "2024-06-01"  # Go back further to catch older topics
+TOPIC_FETCH_START_DATE = "2020-01-01"  # Go back much further to catch older topics
 TOPIC_FETCH_END_DATE = "2025-04-15"    # Same as POST_END_DATE
 
-RAW_COOKIE_STRING = "_forum_session=HSErnyTcwDITl%2B4OgW9jb06gYBkT41opiefl3FcxJ9fDDx3079sevNAl6VYNwBbhnT8HvZVPk3MLyropjas8MGuxv5WqeHELsOzupU4EVBiDazm%2BlbBjVqCd7AaiE5JoHLePQAwAgvvWjJDPeT2XWPYtG9Zu3ft7sHB12JIGUwpuYwPh5qRvcvCVS0HoqffVFygU4NcDO9fG8BvMPb%2BYLk4LQ7gQPNtsFh%2Bcm5MDiVTYrflHYNikuxC8sYHiRfZGz9%2FScQa%2FqRV4WJ7w8h%2FX9TCQUDbeOA%3D%3D--S%2FMswPmozNXZ%2Fvyl--A65r%2FmfTFPqb47NCZuCbqQ%3D%3D; _t=TrdY3vOmKPkNyCnjdyvxQNpKakN4KP7z1eI0fzkgGaY00EX7rTByAKSKh9aAOgsotzsrg2xCQCk9cLGFC5P2bs6fv0oR2he1rFCbuVGsp23GchPHxnOPzdyBaYEVziQGxOebhVG0tPP4Bh7Sv8z9%2BH5wbmorifZw0fi0w0lr1uJKGgQFpetr5xiJYS6WFnxC5Spq8%2F4MdewwB3wTzm4QksTuOFp2PXujmXOB%2B%2FBGLscwx5AVAyOZSOR23APxST3fsEw9MzgomSbhmx3kQTOY0VPc2IwKOKPSNF5lrFFE2SsdNJ%2F2odth%2BUFXjQW3CvIa--0oGmHqrbAzBxiY0t--%2FvYcXQFZtvVOc2zrjAqy2A%3D%3D"
+
+RAW_COOKIE_STRING = "_forum_session=PsRhrEwAr994SGsUvB%2F6C4tIq76hTZQTWZbO0nL1Dagy6VB%2FONwObpvEwkSu71eiit4pR3RQygTxZeI1j9IPg686s6PmvqBsUA8JjuUgKNfFTUqqvGxTqPxkEUxaSXkXzFAtaSVLB03KCiWZboBhAUhqGDDIWWdUsd5CO0Co5w2ZTRV864rSrf5bh2NzbO%2FztVkVX8PgomK3wG5VBKS4yXamRIxSofnga%2BEqdtSLHPiXlM6i%2FWxkY8%2B4wdEsP0K5dRrtD6yg%2BCBmg5Cas%2Bo1QluuLs7hJDm1cVGU8BQHbwng5oWMUERo1Jvpeo8A55wn2F%2F9Ey3Fx9y89c0unzBr6gx4BhghQnYk4rVZniVOIJlDspNwEzBhcQrZ%2BTR8Lg%3D%3D--dFj8EQ%2FcK7UcWAGB--mumyiNOCYC%2BjIhUXT2CYXg%3D%3D; _t=ENuNKWtcMBkKs48Q80kCZRZttVXd0YIrEVBwrVse5LaMPmNUqoEl0SLJ4gHj%2BM2TtFnzSsI%2FqIp6WhlFC4DXMatILDH719qOL7Vc%2BWwXkiGsM90l65ps1MD%2B7%2FpjzfWxkXlSnFX244m55rogCxRH9iWPuv9vbRTuNvh7KjmIDs11wxqfCp3V8p1KJWaiFs4rgf5bfsMVe9oSeqkmSv4FUda6sNAiU9Fo23cgpdQWTXvcKGMTdqg7uZxZ7k9QnNuIt%2Fc1aRsDLoskcZwRTVCWerh6a1xkAFC5eMfpn27YGYNoNPzOCOVpZUg1VIirudYtN11v2g%3D%3D--gFiRTEcNKoVtChnB--mAyXPa7W2UadShaT%2BFNF2w%3D%3D"
 
 OUTPUT_DIR = "discourse_json"
 POST_ID_BATCH_SIZE = 50
@@ -79,16 +81,33 @@ def get_topic_ids(base_url, category_slug, category_id, start_date_str, end_date
         count_before_processing_page = len(set(topic_ids))
 
         for topic in topics_on_page:
+            # Check both creation date and last activity date
             created_at_str = topic.get("created_at")
+            last_posted_at_str = topic.get("last_posted_at")
+            
+            topic_should_be_included = False
+            
+            # Check if topic was created within the date range
             if created_at_str:
                 try:
                     created_date = datetime.fromisoformat(created_at_str.replace("Z", "+00:00"))
+                    if start_dt <= created_date <= end_dt:
+                        topic_should_be_included = True
                 except ValueError:
-                    print(f"Warning: Could not parse date '{created_at_str}' for topic ID {topic.get('id')}")
-                    continue
-
-                if start_dt <= created_date <= end_dt:
-                    topic_ids.append(topic["id"])
+                    print(f"Warning: Could not parse created_at date '{created_at_str}' for topic ID {topic.get('id')}")
+            
+            # Check if topic has recent activity within the date range
+            if not topic_should_be_included and last_posted_at_str:
+                try:
+                    last_posted_date = datetime.fromisoformat(last_posted_at_str.replace("Z", "+00:00"))
+                    if start_dt <= last_posted_date <= end_dt:
+                        topic_should_be_included = True
+                        print(f"Including topic {topic.get('id')} due to recent activity (last post: {last_posted_date})")
+                except ValueError:
+                    print(f"Warning: Could not parse last_posted_at date '{last_posted_at_str}' for topic ID {topic.get('id')}")
+            
+            if topic_should_be_included:
+                topic_ids.append(topic["id"])
 
         current_unique_topic_count = len(set(topic_ids))
 
@@ -182,19 +201,33 @@ def get_full_topic_json(base_url, topic_id, cookies):
 
     try:
         response = requests.get(initial_topic_url, cookies=cookies, timeout=30)
+        
+        # Add detailed error logging
+        if response.status_code == 403:
+            print(f"✗ Topic {topic_id}: Access forbidden (403) - topic may be private or restricted")
+            return None
+        elif response.status_code == 404:
+            print(f"✗ Topic {topic_id}: Not found (404) - topic may have been deleted")
+            return None
+        elif response.status_code == 429:
+            print(f"✗ Topic {topic_id}: Rate limited (429) - too many requests")
+            return None
+        
         response.raise_for_status()
         topic_data = response.json()
+        
     except requests.exceptions.RequestException as e:
-        print(f"Failed to fetch initial topic data for {topic_id}: {e}")
+        print(f"✗ Topic {topic_id}: Network error - {e}")
         return None
-    except json.JSONDecodeError:
-        print(f"Failed to decode initial JSON for topic {topic_id}. Content: {response.text[:200]}...")
+    except json.JSONDecodeError as e:
+        print(f"✗ Topic {topic_id}: JSON decode error - {e}")
+        print(f"Response content: {response.text[:200]}...")
         return None
 
     post_stream = topic_data.get("post_stream")
     if not post_stream or "stream" not in post_stream or "posts" not in post_stream:
-        print(f"Error: 'post_stream' not found or incomplete in topic {topic_id}. Skipping post fetching.")
-        return topic_data
+        print(f"✗ Topic {topic_id}: Invalid post_stream structure")
+        return None
 
     all_post_ids_in_stream = post_stream.get("stream", [])
     loaded_post_ids = {post["id"] for post in post_stream.get("posts", [])}
@@ -261,6 +294,21 @@ def save_topic_json(topic_id, json_data, output_dir):
         print(f"Error saving topic {topic_id} to {filepath}: {e}")
 
 
+def test_single_topic(topic_id):
+    """Test downloading a single topic for debugging."""
+    cookies = parse_cookie_string(RAW_COOKIE_STRING)
+    topic_data = get_full_topic_json(DISCOURSE_BASE_URL, topic_id, cookies)
+    
+    if topic_data:
+        print(f"✓ Successfully fetched topic {topic_id}")
+        if has_posts_in_date_range(topic_data, POST_START_DATE, POST_END_DATE):
+            print(f"✓ Topic {topic_id} has posts in date range")
+        else:
+            print(f"✗ Topic {topic_id} has no posts in date range")
+    else:
+        print(f"✗ Failed to fetch topic {topic_id}")
+
+
 def main():
     """Main function to orchestrate the downloading process."""
     print("Script started.")
@@ -294,6 +342,11 @@ def main():
 
     for i, topic_id in enumerate(topic_ids, 1):
         print(f"--- [{i}/{total_topics}] Processing topic ID: {topic_id} ---")
+        
+        # Add delay to prevent rate limiting
+        if i > 1:  # Don't delay on first request
+            time.sleep(1)  # 1 second delay between requests
+        
         topic_json_data = get_full_topic_json(DISCOURSE_BASE_URL, topic_id, cookies)
         
         if topic_json_data:
@@ -327,5 +380,7 @@ def main():
     print(f"Downloaded files are in: {os.path.abspath(OUTPUT_DIR)}")
     print("Script finished.")
 
+
 if __name__ == "__main__":
     main()
+

@@ -2,27 +2,27 @@
   "post_stream": {
     "posts": [
       {
-        "id": 596885,
-        "name": "Aniruddha Mukherjee",
-        "username": "23f1003186",
-        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1003186/{size}/66745_2.png",
-        "created_at": "2025-02-19T06:13:13.570Z",
-        "cooked": "<p>The deadlines mentioned in the Grading Document provided and the TDS website (<a href=\"http://s-anand.net\" rel=\"noopener nofollow ugc\">s-anand.net</a>) are different. Project-1’s deadline was 15 Feb, it was then postponed to the 16th of Feb. Can this be reflected here?<br>\nNot affecting me particularly, however, it’s good to be consistent across channels of communication to the students…</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/d/6/d6f1b7044757c29a9ff64c6d9f38afcb1829c308.png\" data-download-href=\"/uploads/short-url/uFu382S2l0tDin8oNSIKObrDuZO.png?dl=1\" title=\"grab-IIT-Madras--Microsoft Edge_at_11.39.08_on__19-02-2025__003297\" rel=\"noopener nofollow ugc\"><img src=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/6/d6f1b7044757c29a9ff64c6d9f38afcb1829c308_2_635x500.png\" alt=\"grab-IIT-Madras--Microsoft Edge_at_11.39.08_on__19-02-2025__003297\" data-base62-sha1=\"uFu382S2l0tDin8oNSIKObrDuZO\" width=\"635\" height=\"500\" srcset=\"https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/6/d6f1b7044757c29a9ff64c6d9f38afcb1829c308_2_635x500.png, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/6/d6f1b7044757c29a9ff64c6d9f38afcb1829c308_2_952x750.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/6/d6f1b7044757c29a9ff64c6d9f38afcb1829c308_2_1270x1000.png 2x\" data-dominant-color=\"EAEAEF\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">grab-IIT-Madras--Microsoft Edge_at_11.39.08_on__19-02-2025__003297</span><span class=\"informations\">1484×1168 161 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
-        "post_number": 1,
+        "id": 601807,
+        "name": "Naman S. ",
+        "username": "namanshyamsukha",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/namanshyamsukha/{size}/108303_2.png",
+        "created_at": "2025-03-01T15:58:09.265Z",
+        "cooked": "<aside class=\"quote group-ds-students\" data-username=\"iitmanupam\" data-post=\"11\" data-topic=\"141413\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://dub1.discourse-cdn.com/flex013/user_avatar/discourse.onlinedegree.iitm.ac.in/iitmanupam/48/56694_2.png\" class=\"avatar\"> iitmanupam:</div>\n<blockquote>\n<p>students a fighting chance to score an S.</p>\n</blockquote>\n</aside>\n<p>I agree with your points.</p>",
+        "post_number": 17,
         "post_type": 1,
-        "posts_count": 2,
-        "updated_at": "2025-02-19T06:13:13.570Z",
+        "posts_count": 14,
+        "updated_at": "2025-03-01T15:58:09.265Z",
         "reply_count": 0,
-        "reply_to_post_number": null,
-        "quote_count": 0,
+        "reply_to_post_number": 8,
+        "quote_count": 1,
         "incoming_link_count": 1,
-        "reads": 52,
-        "readers_count": 51,
-        "score": 43.6,
+        "reads": 93,
+        "readers_count": 92,
+        "score": 22.4,
         "yours": false,
-        "topic_id": 167679,
-        "topic_slug": "inconsistent-information-in-the-grading-document-and-the-website",
-        "display_username": "Aniruddha Mukherjee",
+        "topic_id": 141413,
+        "topic_slug": "is-it-fair-to-consider-20-weightage-of-such-exam-which-is-impossible-to-solve-in-given-time-i-e-roe",
+        "display_username": "Naman S. ",
         "primary_group_name": "ds-students",
         "flair_name": "ds-students",
         "flair_url": null,
@@ -36,22 +36,18 @@
         "can_recover": false,
         "can_see_hidden_post": false,
         "can_wiki": false,
-        "link_counts": [
-          {
-            "url": "http://s-anand.net",
-            "internal": false,
-            "reflection": false,
-            "title": "S Anand - S Anand",
-            "clicks": 1
-          }
-        ],
-        "read": true,
-        "user_title": null,
+        "read": false,
+        "user_title": "",
+        "reply_to_user": {
+          "id": 15826,
+          "username": "iitmanupam",
+          "name": "Anupam Chandra",
+          "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/iitmanupam/{size}/56694_2.png"
+        },
         "bookmarked": false,
         "actions_summary": [
           {
             "id": 2,
-            "count": 2,
             "can_act": true
           },
           {
@@ -82,7 +78,7 @@
         "moderator": false,
         "admin": false,
         "staff": false,
-        "user_id": 19230,
+        "user_id": 12334,
         "hidden": false,
         "trust_level": 1,
         "deleted_at": null,
@@ -90,138 +86,35 @@
         "edit_reason": null,
         "can_view_edit_history": true,
         "wiki": false,
-        "post_url": "/t/inconsistent-information-in-the-grading-document-and-the-website/167679/1",
-        "user_cakedate": "2023-06-08",
-        "user_birthdate": "1904-09-19",
-        "reactions": [
-          {
-            "id": "heart",
-            "type": "emoji",
-            "count": 2
-          }
-        ],
+        "post_url": "/t/is-it-fair-to-consider-20-weightage-of-such-exam-which-is-impossible-to-solve-in-given-time-i-e-roe/141413/17",
+        "user_cakedate": "2022-04-30",
+        "user_birthdate": "1904-01-11",
+        "reactions": [],
         "current_user_reaction": null,
-        "reaction_users_count": 2,
+        "reaction_users_count": 0,
         "current_user_used_main_reaction": false,
         "can_accept_answer": false,
         "can_unaccept_answer": false,
         "accepted_answer": false,
-        "topic_accepted_answer": true,
-        "can_vote": false
-      },
-      {
-        "id": 597385,
-        "name": "Carlton D'Silva",
-        "username": "carlton",
-        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
-        "created_at": "2025-02-20T11:41:31.854Z",
-        "cooked": "<p><a class=\"mention\" href=\"/u/23f1003186\">@23f1003186</a></p>\n<p>Thanks for letting us know (it might take a little while to fix)</p>\n<p>Kind regards</p>",
-        "post_number": 2,
-        "post_type": 1,
-        "posts_count": 2,
-        "updated_at": "2025-02-20T11:41:31.854Z",
-        "reply_count": 0,
-        "reply_to_post_number": null,
-        "quote_count": 0,
-        "incoming_link_count": 0,
-        "reads": 37,
-        "readers_count": 36,
-        "score": 21.0,
-        "yours": false,
-        "topic_id": 167679,
-        "topic_slug": "inconsistent-information-in-the-grading-document-and-the-website",
-        "display_username": "Carlton D'Silva",
-        "primary_group_name": "ds-students",
-        "flair_name": "ds-students",
-        "flair_url": null,
-        "flair_bg_color": "",
-        "flair_color": "",
-        "flair_group_id": 294,
-        "badges_granted": [],
-        "version": 1,
-        "can_edit": false,
-        "can_delete": false,
-        "can_recover": false,
-        "can_see_hidden_post": false,
-        "can_wiki": false,
-        "read": true,
-        "user_title": "Regular",
-        "title_is_group": false,
-        "bookmarked": false,
-        "actions_summary": [
-          {
-            "id": 2,
-            "count": 1,
-            "can_act": true
-          },
-          {
-            "id": 6,
-            "can_act": true
-          },
-          {
-            "id": 3,
-            "can_act": true
-          },
-          {
-            "id": 4,
-            "can_act": true
-          },
-          {
-            "id": 8,
-            "can_act": true
-          },
-          {
-            "id": 10,
-            "can_act": true
-          },
-          {
-            "id": 7,
-            "can_act": true
-          }
-        ],
-        "moderator": false,
-        "admin": false,
-        "staff": false,
-        "group_moderator": true,
-        "user_id": 16094,
-        "hidden": false,
-        "trust_level": 3,
-        "deleted_at": null,
-        "user_deleted": false,
-        "edit_reason": null,
-        "can_view_edit_history": true,
-        "wiki": false,
-        "post_url": "/t/inconsistent-information-in-the-grading-document-and-the-website/167679/2",
-        "user_cakedate": "2023-01-25",
-        "reactions": [
-          {
-            "id": "heart",
-            "type": "emoji",
-            "count": 1
-          }
-        ],
-        "current_user_reaction": null,
-        "reaction_users_count": 1,
-        "current_user_used_main_reaction": false,
-        "can_accept_answer": false,
-        "can_unaccept_answer": false,
-        "accepted_answer": true,
         "topic_accepted_answer": true
       }
     ],
     "stream": [
-      596885,
-      597385
+      601807
     ]
   },
   "timeline_lookup": [
     [
       1,
-      115
+      320
     ],
     [
-      2,
-      114
+      13,
+      319
+    ],
+    [
+      14,
+      105
     ]
   ],
   "suggested_topics": [
@@ -259,7 +152,7 @@
       ],
       "tags_descriptions": {},
       "like_count": 121,
-      "views": 2487,
+      "views": 2480,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -364,7 +257,7 @@
       ],
       "tags_descriptions": {},
       "like_count": 2,
-      "views": 51,
+      "views": 48,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -428,7 +321,7 @@
       ],
       "tags_descriptions": {},
       "like_count": 0,
-      "views": 11,
+      "views": 10,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -477,7 +370,7 @@
       ],
       "tags_descriptions": {},
       "like_count": 21,
-      "views": 133,
+      "views": 132,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -582,7 +475,7 @@
       ],
       "tags_descriptions": {},
       "like_count": 0,
-      "views": 10,
+      "views": 9,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -605,44 +498,42 @@
     }
   ],
   "tags": [
-    "clarification"
+    "tds",
+    "tds-roe"
   ],
   "tags_descriptions": {},
-  "id": 167679,
-  "title": "Inconsistent information in the Grading Document and the website",
-  "fancy_title": "Inconsistent information in the Grading Document and the website",
-  "posts_count": 2,
-  "created_at": "2025-02-19T06:13:13.395Z",
-  "views": 66,
-  "reply_count": 0,
-  "like_count": 3,
-  "last_posted_at": "2025-02-20T11:41:31.854Z",
+  "id": 141413,
+  "title": "Is it fair to consider 20% weightage of such exam which is impossible to solve in given time (i.e. ROE)",
+  "fancy_title": "Is it fair to consider 20% weightage of such exam which is impossible to solve in given time (i.e. ROE)",
+  "posts_count": 14,
+  "created_at": "2024-07-29T02:42:05.573Z",
+  "views": 606,
+  "reply_count": 12,
+  "like_count": 49,
+  "last_posted_at": "2025-03-01T15:58:09.265Z",
   "visible": true,
   "closed": false,
   "archived": false,
   "has_summary": false,
   "archetype": "regular",
-  "slug": "inconsistent-information-in-the-grading-document-and-the-website",
+  "slug": "is-it-fair-to-consider-20-weightage-of-such-exam-which-is-impossible-to-solve-in-given-time-i-e-roe",
   "category_id": 34,
-  "word_count": 85,
+  "word_count": 1914,
   "deleted_at": null,
-  "user_id": 19230,
+  "user_id": 17075,
   "featured_link": null,
   "pinned_globally": false,
   "pinned_at": null,
   "pinned_until": null,
-  "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/6/d6f1b7044757c29a9ff64c6d9f38afcb1829c308_2_1024x805.png",
+  "image_url": null,
   "slow_mode_seconds": 0,
   "draft": null,
-  "draft_key": "topic_167679",
+  "draft_key": "topic_141413",
   "draft_sequence": 0,
-  "posted": false,
   "unpinned": null,
   "pinned": false,
   "current_post_number": 1,
-  "highest_post_number": 2,
-  "last_read_post_number": 2,
-  "last_read_post_id": 597385,
+  "highest_post_number": 17,
   "deleted_by": null,
   "actions_summary": [
     {
@@ -673,41 +564,26 @@
   "chunk_size": 20,
   "bookmarked": false,
   "topic_timer": null,
-  "message_bus_last_id": 0,
-  "participant_count": 2,
+  "message_bus_last_id": 8,
+  "participant_count": 11,
   "show_read_indicator": false,
-  "thumbnails": [
-    {
-      "max_width": null,
-      "max_height": null,
-      "width": 1484,
-      "height": 1168,
-      "url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/d/6/d6f1b7044757c29a9ff64c6d9f38afcb1829c308.png"
-    },
-    {
-      "max_width": 1024,
-      "max_height": 1024,
-      "width": 1024,
-      "height": 805,
-      "url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/d/6/d6f1b7044757c29a9ff64c6d9f38afcb1829c308_2_1024x805.png"
-    }
-  ],
+  "thumbnails": null,
   "slow_mode_enabled_until": null,
   "tags_disable_ads": false,
   "related_topics": [
     {
-      "id": 140620,
-      "title": "TDS project 1 submission deadline",
-      "fancy_title": "TDS project 1 submission deadline",
-      "slug": "tds-project-1-submission-deadline",
-      "posts_count": 4,
+      "id": 126159,
+      "title": "Not clear regarding the TDS score",
+      "fancy_title": "Not clear regarding the TDS score",
+      "slug": "not-clear-regarding-the-tds-score",
+      "posts_count": 5,
       "reply_count": 1,
-      "highest_post_number": 4,
+      "highest_post_number": 5,
       "image_url": null,
-      "created_at": "2024-07-21T07:23:32.438Z",
-      "last_posted_at": "2024-07-21T13:12:33.257Z",
+      "created_at": "2024-04-06T07:48:28.462Z",
+      "last_posted_at": "2024-04-10T04:55:07.346Z",
       "bumped": true,
-      "bumped_at": "2024-07-21T13:52:48.785Z",
+      "bumped_at": "2024-04-10T04:55:07.346Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -719,12 +595,11 @@
       "liked": null,
       "tags": [
         "clarification",
-        "diploma-level",
-        "course-portal"
+        "operational"
       ],
       "tags_descriptions": {},
-      "like_count": 2,
-      "views": 81,
+      "like_count": 7,
+      "views": 152,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -733,10 +608,10 @@
           "extras": null,
           "description": "Original Poster",
           "user": {
-            "id": 14851,
-            "username": "harini_saravanan",
-            "name": "Harini Saravanan",
-            "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/h/ce73a5/{size}.png",
+            "id": 923,
+            "username": "KAJAL_PARIKH",
+            "name": "KAJAL PARIKH",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/kajal_parikh/{size}/181_2.png",
             "primary_group_name": "ds-students",
             "flair_name": "ds-students",
             "flair_group_id": 294,
@@ -747,89 +622,10 @@
           "extras": null,
           "description": "Frequent Poster",
           "user": {
-            "id": 16206,
-            "username": "22f3001120",
-            "name": "Soham",
-            "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/f05b48/{size}.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 1
-          }
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user": {
-            "id": 16125,
-            "username": "23f1000873",
-            "name": "aditya_nupani",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1000873/{size}/68296_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 1
-          }
-        }
-      ]
-    },
-    {
-      "id": 155082,
-      "title": "The date for submission of Project 1 in Grading document is given as 10th November wile the submission closed on the 31st",
-      "fancy_title": "The date for submission of Project 1 in Grading document is given as 10th November wile the submission closed on the 31st",
-      "slug": "the-date-for-submission-of-project-1-in-grading-document-is-given-as-10th-november-wile-the-submission-closed-on-the-31st",
-      "posts_count": 5,
-      "reply_count": 1,
-      "highest_post_number": 5,
-      "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/optimized/3X/8/d/8d9621d701cfa781049b7d80592f685e142f8c15_2_1024x407.png",
-      "created_at": "2024-11-01T14:31:52.203Z",
-      "last_posted_at": "2024-11-05T10:05:50.490Z",
-      "bumped": true,
-      "bumped_at": "2024-11-01T19:10:20.712Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        "clarification",
-        "operational",
-        "term3-2024",
-        "tds-project-1"
-      ],
-      "tags_descriptions": {},
-      "like_count": 1,
-      "views": 70,
-      "category_id": 34,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user": {
-            "id": 24557,
-            "username": "23f2005015",
-            "name": "Sneha Ramanathan",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2005015/{size}/68148_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 0
-          }
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster, Accepted Answer",
-          "user": {
-            "id": 22540,
-            "username": "23f2005121",
-            "name": "Azhaan Pary",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2005121/{size}/67277_2.png",
+            "id": 5225,
+            "username": "lokesh47",
+            "name": "Lokesh Kumar Mahawar",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/lokesh47/{size}/692_2.png",
             "primary_group_name": "ds-students",
             "flair_name": "ds-students",
             "flair_group_id": 294,
@@ -840,10 +636,10 @@
           "extras": null,
           "description": "Frequent Poster",
           "user": {
-            "id": 15764,
-            "username": "22f3000983",
-            "name": "MADHAVAN R MOHAN",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000983/{size}/97294_2.png",
+            "id": 14344,
+            "username": "22f2001152",
+            "name": "Lovleen Chadha",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f2001152/{size}/1945_2.png",
             "primary_group_name": "ds-students",
             "flair_name": "ds-students",
             "flair_group_id": 294,
@@ -854,31 +650,31 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user": {
-            "id": 16094,
-            "username": "carlton",
-            "name": "Carlton D'Silva",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+            "id": 3009,
+            "username": "Amit1",
+            "name": "Amit Kumar Gupta",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/amit1/{size}/30210_2.png",
             "primary_group_name": "ds-students",
             "flair_name": "ds-students",
             "flair_group_id": 294,
-            "trust_level": 3
+            "trust_level": 1
           }
         }
       ]
     },
     {
-      "id": 139891,
-      "title": "Regarding Project 1 Deadline",
-      "fancy_title": "Regarding Project 1 Deadline",
-      "slug": "regarding-project-1-deadline",
-      "posts_count": 15,
-      "reply_count": 10,
-      "highest_post_number": 15,
+      "id": 81098,
+      "title": "ROE: TDS course",
+      "fancy_title": "ROE: TDS course",
+      "slug": "roe-tds-course",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
       "image_url": null,
-      "created_at": "2024-07-15T14:56:04.263Z",
-      "last_posted_at": "2024-07-22T04:38:52.153Z",
+      "created_at": "2023-03-12T14:41:32.644Z",
+      "last_posted_at": "2023-03-12T14:41:32.782Z",
       "bumped": true,
-      "bumped_at": "2024-07-22T04:38:52.153Z",
+      "bumped_at": "2023-03-12T14:41:32.782Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -892,153 +688,20 @@
         "clarification"
       ],
       "tags_descriptions": {},
-      "like_count": 11,
-      "views": 198,
+      "like_count": 0,
+      "views": 64,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
       "posters": [
         {
-          "extras": null,
-          "description": "Original Poster",
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
           "user": {
-            "id": 3517,
-            "username": "introvert",
-            "name": "introvert",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/introvert/{size}/330_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 1
-          }
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user": {
-            "id": 5091,
-            "username": "Vijayvm",
-            "name": "Vijayanandam V M",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/vijayvm/{size}/93_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 1
-          }
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user": {
-            "id": 8713,
-            "username": "21f3001419",
-            "name": "Vinayak Agrawal",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3001419/{size}/27766_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 1
-          }
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user": {
-            "id": 24371,
-            "username": "22f3001612",
-            "name": "Sadhana Shashidhar",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3001612/{size}/66907_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 1
-          }
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user": {
-            "id": 16094,
-            "username": "carlton",
-            "name": "Carlton D'Silva",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 3
-          }
-        }
-      ]
-    },
-    {
-      "id": 154610,
-      "title": "Project Deadline extension?",
-      "fancy_title": "Project Deadline extension?",
-      "slug": "project-deadline-extension",
-      "posts_count": 5,
-      "reply_count": 2,
-      "highest_post_number": 5,
-      "image_url": null,
-      "created_at": "2024-10-31T11:10:13.596Z",
-      "last_posted_at": "2024-10-31T13:21:50.901Z",
-      "bumped": true,
-      "bumped_at": "2024-10-31T13:36:09.429Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        "term3-2024",
-        "tds-project-1"
-      ],
-      "tags_descriptions": {},
-      "like_count": 5,
-      "views": 109,
-      "category_id": 34,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user": {
-            "id": 32960,
-            "username": "Arushi00",
-            "name": "Arushi Kalra",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/arushi00/{size}/66745_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 1
-          }
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user": {
-            "id": 16094,
-            "username": "carlton",
-            "name": "Carlton D'Silva",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
-            "primary_group_name": "ds-students",
-            "flair_name": "ds-students",
-            "flair_group_id": 294,
-            "trust_level": 3
-          }
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user": {
-            "id": 40077,
-            "username": "24ds3000100",
-            "name": "Bahni Roy",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24ds3000100/{size}/113366_2.png",
+            "id": 5244,
+            "username": "21f1_002624",
+            "name": "Tanu Prasad",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f1_002624/{size}/476_2.png",
             "primary_group_name": "ds-students",
             "flair_name": "ds-students",
             "flair_group_id": 294,
@@ -1048,18 +711,18 @@
       ]
     },
     {
-      "id": 97172,
-      "title": "I missed my TDS Project 1",
-      "fancy_title": "I missed my TDS Project 1",
-      "slug": "i-missed-my-tds-project-1",
-      "posts_count": 3,
+      "id": 111490,
+      "title": "Regarding the Programming Assignment",
+      "fancy_title": "Regarding the Programming Assignment",
+      "slug": "regarding-the-programming-assignment",
+      "posts_count": 1,
       "reply_count": 0,
-      "highest_post_number": 3,
+      "highest_post_number": 1,
       "image_url": null,
-      "created_at": "2023-07-29T15:20:58.158Z",
-      "last_posted_at": "2023-07-30T17:26:53.334Z",
+      "created_at": "2023-12-08T10:50:16.082Z",
+      "last_posted_at": "2023-12-08T10:50:16.259Z",
       "bumped": true,
-      "bumped_at": "2023-07-30T17:26:53.334Z",
+      "bumped_at": "2023-12-08T10:50:16.259Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -1070,12 +733,66 @@
       "bookmarked": null,
       "liked": null,
       "tags": [
-        "operational",
-        "tds-project-1"
+        "quiz"
       ],
       "tags_descriptions": {},
-      "like_count": 3,
-      "views": 81,
+      "like_count": 0,
+      "views": 56,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 11621,
+            "username": "_Sarvesh",
+            "name": "Sarvesh Rajasekaran ",
+            "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/_/91b2a8/{size}.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 168476,
+      "title": "Concerns Regarding TDS Course Difficulty and Grading Fairness",
+      "fancy_title": "Concerns Regarding TDS Course Difficulty and Grading Fairness",
+      "slug": "concerns-regarding-tds-course-difficulty-and-grading-fairness",
+      "posts_count": 17,
+      "reply_count": 6,
+      "highest_post_number": 17,
+      "image_url": null,
+      "created_at": "2025-02-25T17:21:11.726Z",
+      "last_posted_at": "2025-02-28T13:48:45.642Z",
+      "bumped": true,
+      "bumped_at": "2025-02-28T13:48:45.642Z",
+      "archetype": "regular",
+      "unseen": false,
+      "last_read_post_number": 17,
+      "unread": 0,
+      "new_posts": 0,
+      "unread_posts": 0,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "notification_level": 1,
+      "bookmarked": false,
+      "liked": false,
+      "tags": [
+        "clarification",
+        "diploma-level",
+        "term1-2025"
+      ],
+      "tags_descriptions": {},
+      "like_count": 157,
+      "views": 562,
       "category_id": 34,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -1084,10 +801,52 @@
           "extras": null,
           "description": "Original Poster",
           "user": {
-            "id": 11895,
-            "username": "suyamoon",
-            "name": "Suyamoon Pathak",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/suyamoon/{size}/56160_2.png",
+            "id": 14374,
+            "username": "A_LAKSHMI",
+            "name": "A LAKSHMI",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/a_lakshmi/{size}/14204_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17202,
+            "username": "22f3002811",
+            "name": "Aditya Gupta",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3002811/{size}/66736_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 19088,
+            "username": "23f2001286",
+            "name": "Ayush Kumar Shaw ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2001286/{size}/67594_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 12334,
+            "username": "namanshyamsukha",
+            "name": "Naman S. ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/namanshyamsukha/{size}/108303_2.png",
             "primary_group_name": "ds-students",
             "flair_name": "ds-students",
             "flair_group_id": 294,
@@ -1098,10 +857,58 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user": {
-            "id": 7018,
-            "username": "ANURAG_SINGH",
-            "name": "ANURAG SINGH",
-            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/anurag_singh/{size}/17_2.png",
+            "id": 16094,
+            "username": "carlton",
+            "name": "Carlton D'Silva",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 55433,
+      "title": "Suggestion about the ROE exam grading",
+      "fancy_title": "Suggestion about the ROE exam grading",
+      "slug": "suggestion-about-the-roe-exam-grading",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2022-06-28T08:26:09.917Z",
+      "last_posted_at": "2022-06-28T08:26:10.058Z",
+      "bumped": true,
+      "bumped_at": "2022-06-28T08:26:10.058Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "tds"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 54,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 7374,
+            "username": "Sumit2002",
+            "name": "Sumit Kumar Singh",
+            "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/s/8797f3/{size}.png",
             "primary_group_name": "ds-students",
             "flair_name": "ds-students",
             "flair_group_id": 294,
@@ -1123,12 +930,12 @@
     "-1"
   ],
   "accepted_answer": {
-    "post_number": 2,
+    "post_number": 3,
     "username": "carlton",
     "name": null,
-    "excerpt": "<a class=\"mention\" href=\"/u/23f1003186\">@23f1003186</a> \nThanks for letting us know (it might take a little while to fix) \nKind regards",
+    "excerpt": "<a class=\"mention\" href=\"/u/23ds1000034\">@23ds1000034</a> <a class=\"mention\" href=\"/u/nandanreddyp\">@nandanreddyp</a> \nTDS ROE is a reality check on your true skills. Rather than face FAANG type tests when it really matters and get a shock that you are at the bottom of the pile, it is better you face reality now in an environment that does not unduly penalises you. \n\nThis situation is cau&hellip;",
     "accepter_name": null,
-    "accepter_username": "23f1003186"
+    "accepter_username": "Amit1"
   },
   "can_vote": false,
   "vote_count": 0,
@@ -1138,16 +945,85 @@
   "details": {
     "can_edit": false,
     "notification_level": 1,
-    "notifications_reason_id": null,
     "can_create_post": true,
     "can_reply_as_new_topic": true,
     "can_flag_topic": true,
     "participants": [
       {
-        "id": 19230,
-        "username": "23f1003186",
-        "name": "Aniruddha Mukherjee",
-        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1003186/{size}/66745_2.png",
+        "id": 7974,
+        "username": "Arun2",
+        "name": "Arun",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/arun2/{size}/27130_2.png",
+        "post_count": 2,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      },
+      {
+        "id": 19251,
+        "username": "23f1001749",
+        "name": "Smita Dhadhal",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1001749/{size}/107968_2.png",
+        "post_count": 2,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      },
+      {
+        "id": 15826,
+        "username": "iitmanupam",
+        "name": "Anupam Chandra",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/iitmanupam/{size}/56694_2.png",
+        "post_count": 2,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 2
+      },
+      {
+        "id": 13078,
+        "username": "Saransh_Saini",
+        "name": "Saransh Saini",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/saransh_saini/{size}/123495_2.png",
+        "post_count": 1,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      },
+      {
+        "id": 11530,
+        "username": "21f3001724",
+        "name": "Yazad Pardiwala",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3001724/{size}/132427_2.png",
+        "post_count": 1,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      },
+      {
+        "id": 19444,
+        "username": "23f1001829",
+        "name": "Sarath E",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1001829/{size}/68148_2.png",
         "post_count": 1,
         "primary_group_name": "ds-students",
         "flair_name": "ds-students",
@@ -1170,31 +1046,98 @@
         "flair_bg_color": "",
         "flair_group_id": 294,
         "trust_level": 3
+      },
+      {
+        "id": 15682,
+        "username": "nandanreddyp",
+        "name": "NandanReddy Parnapalli",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/nandanreddyp/{size}/111940_2.png",
+        "post_count": 1,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      },
+      {
+        "id": 17075,
+        "username": "23ds1000034",
+        "name": "Sarfraz Ahmed",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23ds1000034/{size}/66738_2.png",
+        "post_count": 1,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      },
+      {
+        "id": 12334,
+        "username": "namanshyamsukha",
+        "name": "Naman S. ",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/namanshyamsukha/{size}/108303_2.png",
+        "post_count": 1,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
+      },
+      {
+        "id": 6563,
+        "username": "21f3000759",
+        "name": "Swati Jain",
+        "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3000759/{size}/23528_2.png",
+        "post_count": 1,
+        "primary_group_name": "ds-students",
+        "flair_name": "ds-students",
+        "flair_url": null,
+        "flair_color": "",
+        "flair_bg_color": "",
+        "flair_group_id": 294,
+        "trust_level": 1
       }
     ],
     "created_by": {
-      "id": 19230,
-      "username": "23f1003186",
-      "name": "Aniruddha Mukherjee",
-      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1003186/{size}/66745_2.png"
+      "id": 17075,
+      "username": "23ds1000034",
+      "name": "Sarfraz Ahmed",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23ds1000034/{size}/66738_2.png"
     },
     "last_poster": {
-      "id": 16094,
-      "username": "carlton",
-      "name": "Carlton D'Silva",
-      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png"
+      "id": 12334,
+      "username": "namanshyamsukha",
+      "name": "Naman S. ",
+      "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/namanshyamsukha/{size}/108303_2.png"
     },
     "links": [
       {
-        "url": "http://s-anand.net",
-        "title": "S Anand - S Anand",
-        "internal": false,
+        "url": "https://discourse.onlinedegree.iitm.ac.in/t/navigating-job-requirements-what-tech-skills-matter/147489/2",
+        "title": "Navigating Job Requirements: What Tech Skills Matter",
+        "internal": true,
         "attachment": false,
-        "reflection": false,
+        "reflection": true,
+        "clicks": 2,
+        "user_id": 22540,
+        "domain": "discourse.onlinedegree.iitm.ac.in",
+        "root_domain": "iitm.ac.in"
+      },
+      {
+        "url": "https://discourse.onlinedegree.iitm.ac.in/t/concerns-regarding-tds-course-difficulty-and-grading-fairness/168476/9",
+        "title": "Concerns Regarding TDS Course Difficulty and Grading Fairness",
+        "internal": true,
+        "attachment": false,
+        "reflection": true,
         "clicks": 1,
-        "user_id": 19230,
-        "domain": "s-anand.net",
-        "root_domain": "s-anand.net"
+        "user_id": 1,
+        "domain": "discourse.onlinedegree.iitm.ac.in",
+        "root_domain": "iitm.ac.in"
       }
     ]
   },
