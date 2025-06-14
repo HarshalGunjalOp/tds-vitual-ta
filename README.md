@@ -1,6 +1,6 @@
 # TDS Data Repository
 
-**WARNING: Use this data at your own risk. Ensure all the data is correct and how you want it. There is no guarantee on the completeness and correctness of the data.**
+
 
 ## Overview
 
@@ -14,7 +14,6 @@ The data includes:
 
 ## Data Structure
 
-- **discourse_posts.json**: A single JSON file containing all the Discourse posts.
 - **discourse_json/**: A directory containing individual JSON files for each topic post stream.
 - **tds_pages_md/**: A directory containing Markdown files for each page scraped from the TDS 2025-01 website.
 
@@ -44,20 +43,20 @@ To download the data, you can use the provided Python scripts:
 - **Discourse Posts**
 
   ```bash
-  python discourse_downloader_full.py
+  python discourse_scraper.py
   ```
 
 - **Website Pages**
 
   ```bash
-  python website_downloader_full.py
+  python tds_website_scraper.py
   ```
 
 ### Viewing Data
 
 - **Discourse Posts**
 
-  The `discourse_posts.json` file contains all the Discourse posts. You can view this file directly or use a JSON viewer.
+  The `discourse_json/` directory contains all the Discourse posts. 
 
 - **Website Pages**
 
